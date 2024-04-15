@@ -1,0 +1,27 @@
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 20px 25px;
+      display: flex;
+      text-align: center;
+      color: #fff;
+      justify-content: space-between;
+    }
+    
+    .table-row {
+      background-color: #213a4a00;
+      border-radius: 10px;
+      border: 1px solid #E1E9FE;
+      margin:6px 3px;
+    }
+    .table-row:hover{
+        background-color: #134556;
+    }
+  }
+  .customcode-column{
+    width: 300px;
+  }
